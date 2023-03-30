@@ -14,8 +14,9 @@ header {
 .box-8-wrapper,
 footer {
     padding: 0 30px;
+    padding-top: 20px;
 }
-.logo-pc{
+.logo-pc {
     display: none;
 }
 
@@ -368,27 +369,24 @@ h1 {
 
 .section2 {
     margin-top: 80px;
+    margin-bottom: 40px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 15px;
-
     max-width: 315px;
     width: 100%;
-    margin-bottom: 40px;
 }
 
 .section2 h1 {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     padding: 0px;
     gap: 10px;
-
     max-width: 315px;
     width: 100%;
-    min-height: 39px;
 }
 
 
@@ -681,9 +679,7 @@ h1 {
 /* ! Section 4 end */
 
 /* Box 5 start */
-.box-5-wrapper {
-    margin: 0 auto 80px auto;
-}
+
 
 .card-all-wrapper-2 {
     display: flex;
@@ -743,11 +739,9 @@ h1 {
 .user-sell-text-wrapper {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     justify-content: space-between;
     padding: 0px;
     width: 100%;
-
     height: 34px;
 }
 
@@ -764,6 +758,7 @@ h1 {
 .ustw-col2 {
     display: flex;
     flex-direction: column;
+    text-align: right;
     justify-content: center;
     align-items: flex-end;
     padding: 0px;
@@ -974,7 +969,7 @@ h1 {
 .box-7-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
     width: 100%;
     margin-top: 80px;
@@ -1173,13 +1168,23 @@ h1 {
     color: #fff;
     border: 0;
     border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
 }
+.btn6:hover{
+    width: 160px;
+}
+
+
 
 /* !Box 8 End */
 /* !Main end */
 
 /* ! FOOTER START */
-
+footer{
+    background-color: #3b3b3b;
+    padding-top: 50px;
+}
 footer p {
     width: 315px;
     height: 44px;
@@ -1205,7 +1210,7 @@ footer p {
     margin-bottom: 30px;
 }
 
-.fcol1 p{
+.fcol1 p {
     width: 100%;
 }
 
@@ -1379,9 +1384,6 @@ footer p {
         transition: 0.4s;
     }
 
-    .box-5-wrapper {
-        margin-top: 80px;
-    }
 
     .box-5-card-container {
         display: flex;
@@ -1506,11 +1508,12 @@ footer p {
 @media (min-width:768px) {
 
     .desktop,
-    .desktop-menu,.logo-pc {
+    .desktop-menu,
+    .logo-pc {
         display: block;
     }
 
-    .nav-pc{
+    .nav-pc {
         display: flex;
         width: 100%;
         justify-content: space-between;
@@ -1525,11 +1528,11 @@ footer p {
         color: #fff;
         gap: 20px;
     }
-    .desktop-menu li{
+
+    .desktop-menu li {
         transition: 0.5s;
         cursor: pointer;
         padding-left: 5px;
-        width: 100px%;
         height: 46px;
         display: flex;
         align-items: center;
@@ -1541,7 +1544,10 @@ footer p {
         line-height: 140%;
         text-align: center;
     }
-    .btn-sign-up{
+    .desktop-menu li:nth-child(3){
+        width: 140px;
+    }
+    .btn-sign-up {
         gap: 12px;
         min-width: 92px;
         height: 35px;
@@ -1556,7 +1562,8 @@ footer p {
     .mobile-menu,
     .box-3.tablets,
     .for-mobile,
-    .box-5.tablets,.logo {
+    .box-5.tablets,
+    .logo {
         display: none;
     }
 
@@ -1715,7 +1722,9 @@ footer p {
     .btn5:hover,
     .box-7-card-1:hover,
     .users:hover,
-    .sablon-img:hover,.btn-sign-up:hover,li:hover{
+    .sablon-img:hover,
+    .btn-sign-up:hover,
+    li:hover {
         transform: scale(.9);
     }
 }

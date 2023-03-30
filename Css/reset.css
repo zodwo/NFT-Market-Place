@@ -23,10 +23,20 @@ ol, ul ,li{
 	list-style: none;
 }
 a{
-    text-decoration: none;
+	color: #fff;
+	text-decoration: none;
+}
+
+#copy{
 	color: rgb(249, 0, 0)
 }
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+.active{
+	height: 40px !important;
+	background-color: #b3b3b3 !important;
 }
