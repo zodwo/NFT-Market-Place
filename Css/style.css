@@ -16,6 +16,7 @@ footer {
     padding: 0 30px;
     padding-top: 20px;
 }
+
 .logo-pc {
     display: none;
 }
@@ -48,13 +49,12 @@ nav {
 
 /* Section start */
 .section1 {
-    min-width: 10;
+    min-width: 10px;
     margin-top: 40px;
 }
 
 h1 {
     min-width: 20%;
-    height: 78px;
 
     font-family: 'Work Sans';
     font-weight: 600;
@@ -80,11 +80,13 @@ h1 {
     color: #FFFFFF;
 }
 
+
 .intro-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
+    max-width: 355px;
     width: 100%;
     min-height: 315px;
     background-color: #3b3b3b;
@@ -1106,7 +1108,7 @@ h1 {
 }
 
 .row-8-text-wrapper-col span:last-child {
-    width: 315px;
+    width: 215px;
     height: 44px;
 
     font-family: 'Work Sans';
@@ -1163,7 +1165,8 @@ h1 {
     cursor: pointer;
     transition: 0.5s;
 }
-.btn6:hover{
+
+.btn6:hover {
     width: 160px;
 }
 
@@ -1173,10 +1176,11 @@ h1 {
 /* !Main end */
 
 /* ! FOOTER START */
-footer{
+footer {
     background-color: #3b3b3b;
     padding-top: 50px;
 }
+
 footer p {
     width: 315px;
     height: 44px;
@@ -1295,17 +1299,13 @@ footer p {
 
     .box-1-col-1 {
         padding-left: 10px;
-        width: 100%;
-        margin: auto;
     }
 
     .box-1-wrapper {
         display: flex;
-        align-items: flex-start;
-        padding: 0px;
+        padding-right: 20px;
         gap: 30px;
         width: 100%;
-        min-height: 381px;
     }
 
 
@@ -1317,6 +1317,8 @@ footer p {
 
     .intro-card {
         margin-right: 25px;
+        max-width: 600px;
+        width: 100%;
     }
 
     .for-mobile {
@@ -1493,6 +1495,27 @@ footer p {
         transition: 0.4s;
     }
 
+    .section1 h1 {
+        max-width: 555px;
+        min-width: 10px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .box-1-col-1 {
+        display: flex;
+        flex-direction: column;
+        min-width: 10px;
+    }
 
 }
 
@@ -1536,9 +1559,11 @@ footer p {
         line-height: 140%;
         text-align: center;
     }
-    .desktop-menu li:nth-child(3){
+
+    .desktop-menu li:nth-child(3) {
         width: 140px;
     }
+
     .btn-sign-up {
         gap: 12px;
         min-width: 92px;
@@ -1559,8 +1584,10 @@ footer p {
         display: none;
     }
 
-    .box-1-wrapper{
+    .box-1-wrapper {
         margin-top: -20px;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .intro-card-wrapper-pc {
@@ -1573,7 +1600,7 @@ footer p {
         height: 100%;
         border-radius: 20px 20px 0px 0px;
     }
-    
+
 
     .intro-card-2.desktop .img-3 {
         background: url(/images/AvatarPlaceholder_7.png);
@@ -1684,19 +1711,19 @@ footer p {
         justify-content: space-between;
     }
 
+
+    
     h1 {
-        max-width: 510px !important;
-        width: 100%;
         font-family: 'Work Sans';
         font-style: normal;
         font-weight: 600;
-        font-size: 67px;
+        font-size: 67px !important;
         line-height: 110%;
         display: flex;
         align-items: center;
         text-transform: capitalize;
         color: #FFFFFF;
-        margin: 110px 0;
+        margin: 88px 0;
     }
 
     .section1 p {
@@ -1709,9 +1736,10 @@ footer p {
         line-height: 160%;
         text-transform: capitalize;
         color: #FFFFFF;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
+    
     .intro-card:hover,
     .btn:hover,
     .wrap1:hover,
