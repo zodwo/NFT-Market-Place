@@ -21,7 +21,7 @@ footer {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1600px;
     width: 100%;
     margin: auto;
 }
@@ -96,7 +96,6 @@ h1 {
 
 .intro-card img {
     width: 100%;
-    min-height: 206px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -211,23 +210,16 @@ h1 {
     align-items: flex-start;
     padding: 0px;
     gap: 30px;
-
-    width: 100%;
     min-height: 57px;
     margin-bottom: 80px;
 }
 
 .subs-text-col {
-    max-width: 315px;
+    width: 77px !important;
     width: 100%;
-    min-height: 57px;
-
 }
 
 .subs-text-col h2 {
-    max-width: 85px;
-    width: 100%;
-    min-height: 35px;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -241,8 +233,6 @@ h1 {
 }
 
 .subs-text-col span {
-    max-width: 85px;
-    min-height: 22px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
@@ -1008,6 +998,7 @@ h1 {
     padding: 0px;
     gap: 20px;
     height: 494px;
+    margin: auto;
 }
 
 .box-7-card-1 {
@@ -1080,6 +1071,7 @@ h1 {
 
 .row-8-cards {
     width: 100%;
+    padding: 0 27px;
     height: auto;
 }
 
@@ -1567,10 +1559,21 @@ footer p {
         display: none;
     }
 
+    .box-1-wrapper{
+        margin-top: -20px;
+    }
 
     .intro-card-wrapper-pc {
         display: flex;
     }
+
+    .intro-card img {
+        width: 100%;
+        max-height: 700px;
+        height: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
 
     .intro-card-2.desktop .img-3 {
         background: url(/images/AvatarPlaceholder_7.png);

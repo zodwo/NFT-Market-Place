@@ -532,6 +532,7 @@ footer p {
         display: flex;
         align-items: center;
         text-transform: capitalize;
+        margin-bottom: 20px;
 
         color: #FFFFFF;
     }
