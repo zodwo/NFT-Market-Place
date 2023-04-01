@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;1,700&display=swap');
 
-header {
-    padding: 0 15px;
-}
 
 .box-1-wrapper,
 .box-2-wrapper,
@@ -283,6 +280,7 @@ h1 {
     border-radius: 20px;
 
 }
+.intro-card-wrapper a{width: 100%;}
 
 .btn1 {
     margin-top: 15px;
@@ -298,7 +296,7 @@ h1 {
     transition: 0.4s;
 }
 
-.btn1 span {
+.btn1  span {
     max-width: 49px;
     width: 100%;
     min-height: 22px;
@@ -368,8 +366,7 @@ h1 {
     align-items: flex-start;
     padding: 0px;
     gap: 15px;
-    max-width: 315px;
-    width: 100%;
+    width: 50%;
 }
 
 .section2 h1 {
@@ -377,8 +374,7 @@ h1 {
     flex-direction: row;
     padding: 0px;
     gap: 10px;
-    max-width: 315px;
-    width: 100%;
+    width: 60%;
 }
 
 
@@ -390,7 +386,7 @@ h1 {
     gap: 10px;
     color: #fff;
     max-width: 315px;
-    width: 100%;
+    width: 80%;
 
 }
 
@@ -1523,14 +1519,17 @@ footer p {
     .logo-pc {
         display: block;
     }
-
     .nav-pc {
         display: flex;
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        cursor: pointer;
+        position: fixed;
+        z-index: 22;
+        padding:0 20px;
+        background-color: #2B2B2B;
     }
+
 
     .desktop-menu {
         height: 60px;
@@ -1605,7 +1604,6 @@ footer p {
     }
 
     .top-txt-header {
-        height: 300px;
         align-items: center;
         margin-bottom: 60px;
     }

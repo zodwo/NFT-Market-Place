@@ -8,9 +8,7 @@
     display: none;
 }
 
-header {
-    padding: 0 15px;
-}
+
 
 .box-1-wrapper,
 .box-2-wrapper,
@@ -454,6 +452,10 @@ footer p {
         width: 100%;
         justify-content: space-between;
         align-items: center;
+        position: fixed;
+        z-index: 22;
+        padding:0 20px;
+        background-color: #2B2B2B;
     }
 
     .desktop-menu {
